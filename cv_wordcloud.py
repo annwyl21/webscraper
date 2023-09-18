@@ -1,15 +1,16 @@
 import numpy as np
 import matplotlib.pyplot as plt
 from wordcloud import WordCloud, STOPWORDS
-import web_scraper as ws
+from htmlpages.ws_html import web_scraper
+from jspages.ws_js import web_scraper_js
 
 def create_CVwordcloud():
 
-    with open('./wordcloud/my_cv.txt', 'r') as f:
+    with open('./my_cv.txt', 'r') as f:
         my_cv = f.read()
 
     stopwords = set(STOPWORDS)
-    stopwords.update(['course', 'introduction', 'various', 'developed', 'site', 'sought', 'learned', 'project', 'using', 'coding', 'symptom'])
+    stopwords.update(['course', 'introduction', 'various', 'developed', 'site', 'sought', 'learned', 'project', 'using', 'coding', 'symptom', 'create', 'symptoms', 'given', 'created', 'use'])
 
     wc = WordCloud(max_words=500,
                 relative_scaling=0.5,
@@ -28,5 +29,6 @@ def create_CVwordcloud():
     plt.savefig('wordCloud.png')
     plt.show()
 
-# ws.web_scraper()
+# web_scraper()
+web_scraper_js()
 create_CVwordcloud()

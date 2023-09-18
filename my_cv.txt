@@ -2,34 +2,87 @@ Python Microservice
 A python microservice that provides endpoints to a database of film data. The backend database that I connected to is a SQLite database.
 My microservice can communicate with any client using json via its POST, PATCH, DELETE endpoints.
 I built 2 example clients; a jupyter notebook using Matplotlib to graph the database data and a flask app to provide a web GUI for the CRUD operations.
-See RestAPI RepoYahtzee Scorer
+See RestAPI Repo Yahtzee Scorer
 This scorer allows a user to play the game against the computer tracking the score in a scoreboard object.
 This project demonstrates my understanding of object-oriented programming, ability to code the scoring logic required for yahtzee and the commit history shows that I built this project using Test Driven Development - writing the tests before writing the code.
 For this project I used GitHub Actions to create a workflow, initiating automatic unit tests to continuously ensure the quality of my code.
-Go to Yahtzee ScorerBrewQueue
+Go to Yahtzee Scorer BrewQueue
 An order management system (to-do list) to manage barrista workflow.
 Created using JavaScript, I successfully debugged critical issues, including an off-by-1 error and unpredictable card creation anomolies, using browser debugging tools to pinpoint a variable declaration oversight that JavaScript gracefully handled without explicit error, a contrast to typical Python behaviour.
-See BrewQueueHeathrow Weather
+See BrewQueue Heathrow Weather
 A series of heatmaps to visualise weather data recorded at Heathrow over the last 70 years.
 I downloaded freely available data from the MET office into Pandas in order to create heatmaps using Matplotlib, NumPy & Seaborn libraries.
 This project involved cleaning the data.
 See more heatmaps in my Github Repository.
-Heatmap RepoSymptom Tracker
+Heatmap Repo Symptom Tracker
 Keeping track of symptoms and pain can be difficult for people who are ill, elderly or when remembering symptoms on behalf of someone other than yourself, e.g. a child. My symptom logger is designed to support you in this challenge.
 My project uses a metaprompt prefix in API requests to the text-davinci-003 AI model to request an on-demand summary of user-logged & timestamped symptoms stored in a PostgreSQL database.
 A bubbleplot illustrates the frequency of symptoms over time and throughout the day, with bubble size signifying reported pain levels.
-Symptom Log RepoDebt Comparison Calculator
+Symptom Log Repo Debt Comparison Calculator
 A calculator tool to compare repayments over time of personal debt using 3 different methods of structuring debt; stack, snowball & avalanche.
 My calculator creates 3 debt objects, for 3 given debts, and then imagines how each method could repay debt in varying time periods if the repayment amounts were lumped towards a single debt at a time.
 On completion of this project, I created a docker image, this image is available on Dockerhub and as an Azure serverless container.
-Try my debt calculatorWeather API
+Try my debt calculator Weather API
 A weather forecast tool that uses weather data to determine lifestyle advice.
 This project connects to a MET office API to retrieve weather data. The data is used to create a weather object that has a method to convert celsius into fahrenheit and the to populate the fields in a flask app. I enjoy the challenge of connecting things together and making them work.
-Forecast RepoSentence Translation
+Forecast Repo Sentence Translation
 I built a RESTful API to support my own language learning. I actively use Duolingo every day to learn Spanish. I built this project as a tool to support my learning and translate sentences as I needed them while reading.
 This project takes user input on a very simple HTML page and connects to the Azure Cognitive API. The API identifies the language in which the data was entered and returns a translation in 5 given languages.
 The 5 languages into which the sentence is translated by 'Translator Susan' are; Spanish, Dutch, French, German and English.
-Translation RepoRock, Paper Scissors
+Translation Repo Rock, Paper Scissors
 I developed the game logic in Node.js, then integrated that into the front-end JavaScript, allowing me to debug the game logic independently of the web site. This challenge also provided the opportunity to develop my front-end skill. Here I use fun box shadows in CSS and control html elements using Javascript.
 Many of the js skills (automatically generating the flip cards and dynamically sorting my skill badges) that I practiced on this project have helped me to develop this portfolio website.
-Play Rock, Paper, Scissors
+Play Rock, Paper, Scissors This was an extension of my bootcamp project; to build a python app to handle CRUD operations on a given database. My python app is deployed on replit and my microservice and the web gui are both deployed on render.
+RESTful API,API Integration,CRUD I used pytest and Pexpect for unit testing, the debugger tool to identify errors swiftly and an Agile GitHub Project Board to efficiently manage tasks and break objectives into manageable chunks.
+This helped me to keeping the project on track and deliver my goals.
+Pytest,Pexpect,Python,Github Actions,Github Projects This was my Bootcamp project, initially designed using Lucid Chart and created on completion of the JavaScript DOM module.
+JavaScript,local storage,LucidChart,CSS,HTML An interesting puzzle that I researched and handled was the Unix Epoch which changed how my date data was handled.
+Python,Matplotlib,Pandas To develop this application, I acquired knowledge in Natural Language Processing and the NLTK, creating a preliminary summarizing tool to establish a benchmark for the API/metaprompt development and I used a docker image of the PostgreSQL database.
+AI Prompt Engineering,API,Python,Docker Image,PostgreSQL,Matplotlib This project is a demonstration of my knowledge of object-oriented programming and was my contribution to a team project where we created flask website.
+Flask,Python,Docker Image,Dockerhub,Git This was a fun early project that taught me about sensible storage of API keys.
+Flask,API connection 949 day Duolingo streak
+My streak of uninterrupted daily spanish practice demonstrates commitment and persistence with new challenges and my passion for active and engaged learning.
+For commitment see also, my GitHub profile displaying active coding days.
+RESTful API,API Integration This project was a bootcamp assignment. I take every opportunity that I am given to learn and make the absolute most of it that I can in order to enhance my skillset.
+JavaScript,Node.js,Browser Dev Tools/Debugger,HTML,CSS API Integration RESTful API CRUD TDD OOP Github JavaScript HTML CSS Python Data Visualisation AI Prompt Engineering SQL OOP Version Control Azure Serverless Container API Connection Flask RESTful API API Integration JavaScript HTML & CSS Node.js Programming Languages:
+Python
+JavaScript
+SQL
+HTML
+CSS
+Database Management:
+MySQL
+MySQL Workbench
+PostgreSQL (Docker image)
+MongoDB
+MongoDBCompass
+Version Control & Containerization:
+Git
+Github Version Control
+Github Actions & Projects
+GitHub Gist
+Ubuntu/WSL
+Docker & Dockerhub
+Gitbash
+Frameworks & Libraries:
+Pytest
+Pextract
+Jest
+Flask
+Matplotlib
+Pandas
+NumPy
+NLTK
+Regex
+Bootstrap
+Beautiful Soup (BS4)
+Development Environments/ IDE's:
+Visual Studio Code (VS Code)
+PyCharm
+Jupyter Notebook
+API's & AI Engineering:
+Python Requests
+Azure Cognitive API
+AI Prompt Engineering
+Postman Junior Software Engineer Ellen Houghton
+My projects feature OOP, TDD, Data Visualisation, AI Prompt Engineering and working with RESTful API's to showcase my skills and they are available to view on github and dockerhub. 
