@@ -6,3 +6,10 @@
 
 In both cases I used the scraped data to generate my Skills Wordcloud for my GitHub portfolio and for the footer image on my portfolio website, hosted by GitHub pages [here](https://annwyl21.github.io/)
 
+### Using PyPDF2 to scrape my cv.pdf
+and using Regex to extract:
+- my email
+- my portfolio URL
+
+###### Work in Progress
+- learning to use Camelot to scrape tables from pdf's
