@@ -1,6 +1,6 @@
 import camelot
 
-file = './pdf_scraper/LSE_BP_2022.pdf'
+file = './data.pdf'
 
 tables = camelot.read_pdf(file)
 tables

@@ -1,4 +1,4 @@
-camelot-py
+camelot-py[cv]
 requests
 bs4
 pandas
