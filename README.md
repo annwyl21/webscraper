@@ -13,3 +13,7 @@ and using Regex to extract:
 
 ###### Work in Progress
 - learning to use Camelot to scrape tables from pdf's
+
+
+Word Cloud created using data scraped from my portfolio page:
+![Ellen Houghton skills word cloud](./webscraper-main.png)
