@@ -1,0 +1,6 @@
+camelot-py
+requests
+bs4
+pandas
+selenium
+PyPDF2
