@@ -1,0 +1,33 @@
+scrapy shell 'https://quotes.toscrape.com/page/1/'
+
+create a list of things with the title tag
+	response.css("title")
+
+get the text of the title tag
+	response.css("title::text").getall()
+
+get all the thing inside the title tag including the html code
+	response.css("title").getall()
+
+get just the first thing in the list
+	response.css("title::text").get()
+
+get the first thing in the list specifically
+	response.css("title::text")[0].get()
+will error if the list is empty! so fot robustness just use the above get()
+
+it works to add regex
+	response.css("title::text").re(r"Quotes.*")
+	['Quotes to Scrape']
+	response.css("title::text").re(r"Q\w+")
+	['Quotes'] - any letters after Q
+	response.css("title::text").re(r"(\w+) to (\w+)")
+	['Quotes', 'Scrape'] - words before and after 'to'
+
+
+Xpath expressions - LOOK INTO THIS MORE...
+https://docs.scrapy.org/en/latest/topics/selectors.html#topics-selectors
+	response.xpath("//title")
+	[<Selector query='//title' data='<title>Quotes to Scrape</title>'>]
+	response.xpath("//title/text()").get()
+	'Quotes to Scrape'

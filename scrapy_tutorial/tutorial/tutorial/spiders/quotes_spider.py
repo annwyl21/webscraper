@@ -4,7 +4,7 @@ import scrapy
 
 
 class QuotesSpider(scrapy.Spider):
-    name = "quotes"
+    name = "quotes" # name of the spider we are creating
 
     def start_requests(self):
         urls = [
